@@ -7,6 +7,5 @@ public class RightTriangle {
         boolean isRightTriangle = (a * a + b * b == c * c) || (a * a + c * c == b * b) || (b * b + c * c == a * a);
 
         System.out.println(isRightTriangle);
-        System.out.println("hello");
     }
 }
